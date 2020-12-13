@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import Hero from '../components/Sub';
 import Form from 'react-bootstrap/form';
-import content from '../components/thecontent';
+import thecontent from '../components/thecontent';
 import Button from'react-bootstrap/Button';
 
 
@@ -53,7 +53,7 @@ return(
 
      <Hero title={this.props.title}/>
 
-     <content>
+     <thecontent>
          
          <Form onSubmit = {this.handleSubmit}>
               <Form.Group>
@@ -80,7 +80,7 @@ return(
 
          </Form>
 
-    </content>
+    </thecontent>
 
    </div>
 

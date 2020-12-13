@@ -1,5 +1,5 @@
 import React from 'react';
-import Cardinfo from '../components/Cardinfo';
+import Cardinfo from './Cardinformation';
 
 function Card(props){
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import Sub from '../components/Sub';
 import thecontent from '../components/thecontent';
 
 
@@ -7,7 +7,7 @@ function AboutPage(props){
 
    return(
     <div>
-        <Hero title={props.title}/>
+        <Sub title={props.title}/>
        <thecontent>
        <p> Hey! I'm <strong>Juan</strong>. I am currently a computer science student at Lehman college and 
         I have a strong passion for Coding to the point where it has changed the way i 

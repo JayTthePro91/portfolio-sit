@@ -2,11 +2,11 @@ import React from 'react';
 import linkedin from '../assets/images/Linkedin.png';
 import Youtube from '../assets/images/youtube.png';
 import github from '../assets/images/Github.png';
-import Card from '../components/Card';
+import Card from './thecard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-class Carousel extends React.Component{
+class Thecarousel extends React.Component{
 
 constructor(props){
     super(props);
@@ -71,7 +71,7 @@ makeItems = (items) => {
 render(){
 
 return(
-      //<p> Carousel works</p>
+      
 
       <Container fluid={true}>
 
@@ -90,4 +90,4 @@ return(
 
 }
 
-export default Carousel
+export default Thecarousel
