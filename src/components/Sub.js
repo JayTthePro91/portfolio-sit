@@ -4,7 +4,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Hero(props){
+function Sub(props){
 
 return (
 
@@ -25,4 +25,4 @@ return (
 
 }
 
-export default Hero;
+export default Sub;

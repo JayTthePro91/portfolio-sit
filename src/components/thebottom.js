@@ -16,7 +16,7 @@ return(
                   
               </Col>        
                   <Col className="p-0 d-flex justify-content-end" md={3}>
-                      This website was created by Juan Alvarez
+                      This website was created and built by Juan Alvarez
                   
                   </Col>
 
