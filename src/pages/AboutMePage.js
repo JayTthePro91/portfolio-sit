@@ -18,10 +18,7 @@ function AboutPage(props){
         it to keep succeeding and building up on my skills as a programmer and web developer.
        <b> There is no success until failure has been encountered</b></p>
        </thecontent>
-    
-    
-    
-    </div>    
+   </div>    
      
    );
 

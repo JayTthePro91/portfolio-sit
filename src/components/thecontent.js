@@ -11,7 +11,6 @@ function thecontent(props){
                <Row className = "justify-content-center">
                    <Col md={8}>
                         {props.children}
-                   
                    </Col>
 
 
